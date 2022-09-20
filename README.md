@@ -8,6 +8,7 @@ Just simple framework for creating telegram bot
 For add new command, create in dir "controllers" new file *.js with name your command, 
 
 Example: Profile = profile.js, New user = newuser.js
+
 Inside file:
 ```js
 module.exports.execute = (msg) => { 
