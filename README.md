@@ -10,6 +10,7 @@ For add new command, create in dir "controllers" new file *.js with name your co
 Example: Profile = profile.js, New user = newuser.js
 
 Inside file:
+
 ```js
 module.exports.execute = (msg) => { 
     return new Promise((resolve, reject) => {
@@ -17,14 +18,21 @@ module.exports.execute = (msg) => {
     });
 } 
 ```
-execute(msg) - u getting msg from user,
+If u need next step handler using this:
 ```js
+const session = require("../bot_modules/session");
+
+module.exports.execute = (msg) => { 
+    return new Promise((resolve, reject) => {
+        //handler for first msg from user
+        session.execute(uid,'set','ban');
+    });
+} 
+
 module.exports.nxt_execute = (msg) => { 
     return new Promise((resolve, reject) => {
         //handler from second msg from user     
     });
 } 
-```
-nxt_execute(msg) - u getting reply to previously msg (this is just next step handler). 
-But before add in execute,   session.execute(uid,'set','commandname');    
+```  
 Then u can add to lang_menu.js, panels.js your button
