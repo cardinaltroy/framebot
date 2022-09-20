@@ -2,6 +2,7 @@
 - [About framebot](#framebot)
 - [Roadmap](#roadmap)
 - [Usage](#usage)
+- [GetAdmin](#getadmin)
 - [Multilingualism](#multilingualism)
 
 # <a name="framebot">About</a> 
@@ -58,6 +59,8 @@ module.exports.nxt_execute = (msg) => {
 } 
 ```  
 Then u can add to lang_menu.js, panels.js your button
+# <a name="getadmin">GetAdmin</a>
+
 
 # <a name="multilingualism">Multilingualism</a>
 
