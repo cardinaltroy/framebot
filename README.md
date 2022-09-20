@@ -62,7 +62,7 @@ module.exports.nxt_execute = (msg) => {
 Then u can add to lang_menu.js, panels.js your button
 # <a name="getadmin">GetAdmin</a>
 
-when u created database and run bot, just register and use one times command (in chat): getadmin
+When you created database and run bot, just register and use one times command (in chat): getadmin
 
 # <a name="multilingualism">Multilingualism</a>
 

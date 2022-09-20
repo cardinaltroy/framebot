@@ -1,0 +1,18 @@
+{
+  "name": "framebot",
+  "version": "0.0.1",
+  "description": "just simple framework for creating telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "db_create": "node bot_modules/db_create.js",
+    "start": "node index.js"
+  },
+  "author": "cardinaltroy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-telegram-bot-api": "^0.58.0",
+    "sqlite3": "^5.0.11"
+  }
+}
