@@ -5,6 +5,9 @@
 - [GetAdmin](#getadmin)
 - [Multilingualism](#multilingualism)
 
+# Install
+npm i framebot-tg
+
 # <a name="framebot">About</a> 
 Just simple NodeJS framework for creating telegram bot. What he can?
 
