@@ -1,6 +1,5 @@
 # Menu
 - [About framebot](#framebot)
-- [Install](#install)
 - [Roadmap](#roadmap)
 - [Usage](#usage)
 - [Multilingualism](#multilingualism)
@@ -14,7 +13,7 @@ Just simple NodeJS framework for creating telegram bot. What he can?
     - other users info
     - referal system with rewards
 - notify
-- admin panel 
+- admin panel  
     - ban/unban user
     - add/remove balance
     - add/remove admins
@@ -23,9 +22,6 @@ Just simple NodeJS framework for creating telegram bot. What he can?
 - multilevel menu
 - multilingual interface
 
-
-# <a name="install">Install</a>
-...
 # <a name="roadmap">Roadmap</a>
 - rework sql part, add sequelize and models
 - replace promises to async/await because too many nested levels
