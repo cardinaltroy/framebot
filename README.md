@@ -6,7 +6,7 @@
 - [Multilingualism](#multilingualism)
 
 # <a name="framebot">About</a> 
-Just simple framework for creating telegram bot. What he can?
+Just simple NodeJS framework for creating telegram bot. What he can?
 
 - simple registration
 - user cabinet
@@ -112,4 +112,20 @@ Done. Now you can give it to users when you want:
 const panel_handler = require("../bot_modules/panel_handler");
 
 panel_handler.execute(uid,'set','DefaultPanel'); // without language!
+```
+
+Now texts. Add your text to list in lang_text.js:
+```js
+const list = new Map([
+    //key, {eng:value, ru:value}
+    ['error.understand', {eng:"🤖: I dont understand",ru:"🤖: Я не понимаю"}],
+    ['error.sql', {eng:"🤖:Problems with database",ru:"🤖:Проблемы с базой данных"}],
+    ['error.user_info', {eng:"🤖:Not correctly, try again.",ru:"🤖:Не правильно, попробуй ещё раз"}]
+])
+```
+Then you can use it:
+```js
+const langText = require("../bot_modules/lang_texts");
+
+console.log( langText.execute('error.sql') )
 ```
