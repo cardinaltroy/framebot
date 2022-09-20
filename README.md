@@ -1,2 +1,2 @@
 # framebot
-just simple framework for creating telegram bot
+Just simple framework for creating telegram bot
