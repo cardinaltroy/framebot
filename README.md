@@ -1,5 +1,22 @@
 # framebot
-Just simple framework for creating telegram bot
+Just simple framework for creating telegram bot. What he can?
+
+- simple registration
+- user cabinet
+    - balance
+    - other users info
+    - referal system with rewards
+- notify
+- admin panel 
+    - ban/unban user
+    - add/remove balance
+    - add/remove admins
+    - check users profile
+    - add/remove notify
+- multilevel menu
+- multilingual interface
+
+
 # install
 ...
 # roadmap
