@@ -69,7 +69,9 @@ Bot have a multilingual panels with buttons and texts for you. They depends on t
 ```js
     ['app_lang', 'eng']
 ```
-Create panel with buttons
+Create panel with buttons (panels.js):
+
+example: NamePanel_language
 ```js
     DefaultPanel_eng: {
         reply_markup: JSON.stringify({ 
@@ -93,4 +95,21 @@ Create panel with buttons
             force_reply: true
         })
     }
+```
+Then you have to add them to lang_menu.js
+
+```js
+const listRU = new Map([
+        ['Профиль', 'Profile'],
+        ['Почта', 'Mail'],
+        ['Меню', 'Menu']
+    ]);
+
+```
+Done. Now you can give it to users when you want:
+
+```js
+const panel_handler = require("../bot_modules/panel_handler");
+
+panel_handler.execute(uid,'set','DefaultPanel'); // without language!
 ```
