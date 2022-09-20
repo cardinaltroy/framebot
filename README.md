@@ -28,6 +28,7 @@ Just simple NodeJS framework for creating telegram bot. What he can?
 - replace promises to async/await because too many nested levels
 - relocate app_lang to user profile in database, then he can choose language
 # <a name="usage">Usage</a>
+Copy files, then use 
 For add new command, create in dir "controllers" new file *.js with name your command, 
 
 Example: Profile = profile.js, New user = newuser.js
@@ -61,6 +62,7 @@ module.exports.nxt_execute = (msg) => {
 Then u can add to lang_menu.js, panels.js your button
 # <a name="getadmin">GetAdmin</a>
 
+when u created database and run bot, just register and use one times command (in chat): getadmin
 
 # <a name="multilingualism">Multilingualism</a>
 
