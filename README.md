@@ -1,3 +1,5 @@
+<a name="framebot>About</a> 
+
 # framebot
 Just simple framework for creating telegram bot. What he can?
 
@@ -20,7 +22,8 @@ Just simple framework for creating telegram bot. What he can?
 # install
 ...
 # roadmap
-...
+- rework sql part, add sequelize
+- replace promises to async/await because too many nested levels
 # usage
 For add new command, create in dir "controllers" new file *.js with name your command, 
 
