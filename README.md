@@ -1,4 +1,8 @@
-[Framebot](#framebot)
+# Menu
+- [About framebot](#framebot)
+- [Install](#install)
+- [Roadmap](#roadmap)
+- [Usage](#usage)
 
 # <a name="framebot">About</a> 
 Just simple framework for creating telegram bot. What he can?
@@ -19,12 +23,12 @@ Just simple framework for creating telegram bot. What he can?
 - multilingual interface
 
 
-# install
+# <a name="install">Install</a>
 ...
-# roadmap
+# <a name="roadmap">Roadmap</a>
 - rework sql part, add sequelize
 - replace promises to async/await because too many nested levels
-# usage
+# <a name="usage">Usage</a>
 For add new command, create in dir "controllers" new file *.js with name your command, 
 
 Example: Profile = profile.js, New user = newuser.js
